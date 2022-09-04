@@ -7,12 +7,6 @@ public class WordCRUD implements ICRUD{
     ArrayList<Word> list;
     Scanner s;
 
-    /*
-    * => 난이도(1,2,3) & 새 단어 입력 : 1 driveaway
-    * 뜻 입력 : 차고진입로
-    * 새 단어가 단어장에 추가되었습니다.
-    */
-
     WordCRUD(Scanner s){
         list = new ArrayList<>();
         this.s = s;
