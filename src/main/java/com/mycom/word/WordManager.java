@@ -25,23 +25,31 @@ public class WordManager {
         return s.nextInt();
     }
     public void start(){
+        wordCRUD.loadFile();
         while(true) {
             int menu = selectMenu();
             if(menu == 0) {
                 System.out.println("프로그램을 종료합니다.");
                 break;
             }
-            if(menu == 4) {
-                wordCRUD.addItem();
-            }
             if(menu == 1){
                 wordCRUD.listAll();
             }
+            if(menu == 2){
+                wordCRUD.searchLevel();
+            }
+            if(menu == 4) {
+                wordCRUD.addItem();
+            }
+
             if(menu == 5){  //update
                 wordCRUD.updateItem();
             }
             if(menu == 6){  //delete
                 wordCRUD.deleteItem();
+            }
+            if(menu == 7){  //delete
+                wordCRUD.saveFile();
             }
         }
     }
