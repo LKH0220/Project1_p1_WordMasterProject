@@ -38,6 +38,9 @@ public class WordManager {
             if(menu == 2){
                 wordCRUD.searchLevel();
             }
+            if(menu == 3){
+                wordCRUD.searchItem();
+            }
             if(menu == 4) {
                 wordCRUD.addItem();
             }
