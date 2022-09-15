@@ -3,3 +3,10 @@
 1|cat|고양이
 1| hi|하이
 1| moon|달
+2| advise|충고하다
+2| include|포함하다
+2| product|제품, 생산품, 결과
+2| belief|믿음, 신념, 신앙
+3| increase|증가하다, 늘다, 증가
+3| decrease|줄다, 감소하다, 감소, 축소
+1| test|시험
